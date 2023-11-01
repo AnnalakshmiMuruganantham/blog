@@ -246,7 +246,7 @@ body{
   }
   .carousel-item img {
     filter: brightness(70%);
-    height: 290px;
+    height: 300px;
   }
   .carousel-caption{
     position: absolute;
