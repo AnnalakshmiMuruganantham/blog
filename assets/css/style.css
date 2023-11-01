@@ -238,7 +238,7 @@ img{
   border-radius: 10px;
 }
   #banner {
-    margin-top: 150px;
+    margin-top: 110px;
   }
   .carousel-caption h2{
     font-size: 15px;
@@ -255,7 +255,7 @@ img{
   }
   .carousel-item img {
     filter: brightness(70%);
-    height: 200px;
+    height: 240px;
   }
   .carousel-caption{
     position: absolute;
