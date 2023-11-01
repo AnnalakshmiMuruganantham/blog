@@ -1,0 +1,255 @@
+/* Resetting default styles for all elements */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+body{
+  font-family: 'Playfair Display', serif;
+}
+
+#header{
+  height: auto;
+  width:100%;
+  background-color: #f2f2f2;
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+  overflow: hidden;
+}
+.header-icons{
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 14px;
+  margin-left: 134px;
+}
+.navbar{
+  display: inline-block;
+  margin-left: 213px;
+}
+.cname{
+  font-size: 28px;
+  font-weight: 800;
+  display: inline-block;
+}
+#banner{
+  margin-top: 70px;
+}
+.carousel-item img{
+  filter: brightness(70%);
+}
+.carousel-inner {
+  position: relative;
+  width: 106%;
+  overflow: hidden;
+}
+.carousel-caption{
+  position: absolute;
+  bottom: 85px;
+  left: 134px;
+  width: 60%;
+}
+.banner-ic{
+  border-radius: 50%;
+  width: 10px !important;
+  height: 10px !important;
+}
+.card-border{
+  border: none;
+}
+.card-im{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+.main-left{
+  border-right-style: solid;
+  border-right-color: #f2f2f2;
+  border-right-width: 2px;
+}
+.r-2-atag{
+  text-decoration: none;
+  color: black;
+}
+.r-2-atag:hover{
+  text-decoration: none;
+  color: black;
+}
+.r-2{
+  border-right-style: solid;
+  border-right-color: #f2f2f2;
+  border-right-width: 2px;
+}
+.main-right-no{
+  font-size: 60px;
+  position: absolute;
+  right: 260px;
+  bottom: 51px;
+  color: #f1f1f1;
+}
+.main-right-atag{
+  color: black;
+ 
+}
+.main-right-atag:hover{
+  color: black;
+  text-decoration: none;
+ 
+}
+.culture-header, .Business-header, .Lifestyle-header{
+  border-bottom: 2px solid black;
+}
+.culture-header h2, .Business-header h2, .Lifestyle-header h2{
+  font-weight: 600;
+  font-size: 35px;
+}
+.culture-a ,.Business-a, .Lifestyle-a{
+  color: black;
+  text-decoration: underline;
+}
+.culture-img1{
+  max-width: 100%;
+  height: 400px;
+}
+.person-2{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.thumbnail {
+  flex: 0 0 65%;
+}
+.person-2span{
+  font-size: 18px;
+  color: gray;
+  font-weight: 600;
+}
+.culture-r2-img1{
+  width: 100%;
+  height: auto;
+}
+.culture-r2-img2{
+  width: 100%;
+  height: auto;
+}
+.culture-r2-div{
+  border-bottom: 1px solid gray;
+}
+.culture-right, .culture-left, .Business-left, .Lifestyle-right{
+  border-bottom: 1px solid gray;
+}
+.buisness-img{
+  width: 100%;
+  height: 350px;
+}
+.buisness-img-r2 , .Lifestyle-img{
+  width: 100%;
+  height: auto;
+}
+.Lifestyle-left{
+  border-right: 1px solid gray;
+}
+#footer{
+  background-color: #191919;
+}
+.footer-h3{
+  color: #fff;
+}
+.footer-p{
+  color: gray;
+}
+.footer-a{
+  color: gray;
+  text-decoration: underline white;
+}
+.footer-li{
+  color: gray;
+}
+.footer-li:hover{
+  color: white;
+}
+.footer-post{
+
+  height: 90px;
+  overflow: hidden;
+}
+.footer-right-img-div{
+
+  display: inline-block;
+}
+.footer-right-img{
+  
+  width: 50px;
+  height: 50px;
+  margin-bottom: 14px;
+}
+.footer-right-content{
+
+  display: inline-block;
+  margin-left: 77px;
+  color: gray;
+  font-size: 15px;
+  position: relative;
+  bottom: 74px;
+}
+.footer-right-content:hover{
+  color: white;
+}
+#footer-bottom{
+  background-color: #000000;
+}
+.footer-bottom-left{
+  color: gray;
+  display: inline-block;
+}
+.footer-bottom-right{
+  display: inline-block;
+  position: relative;
+  left: 751px;
+  bottom: 22px;
+}
+.footer-bottom-right-i{
+  font-size: 20px;
+  border: 2px solid #1f1f1f;
+  padding: 7px;
+  border-radius: 50%;
+  background-color: #1f1f1f;
+  margin-right: 9px;
+}
+.footer-bottom-right-i:hover{
+  background-color: #494949;
+}
+@media (max-width: 768px) {
+  .main-navigation .primary-menu {
+    background-color: #FFF;
+    width: 100%;
+    margin: 0;
+    z-index: 999 !important;
+    position: relative;
+  }
+  .header-icons{
+    display: none;
+  }
+  .cname{
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    top: 19px;
+    left: 32px;
+  }
+  .footer-right-content {
+    display: block;
+    margin-left: 77px;
+    color: gray;
+    font-size: 15px;
+    position: relative;
+    bottom: 74px;
+  }
+  .footer-bottom-right {
+    display: inline-block;
+    position: relative;
+    left: 46px;
+    bottom: 0px;
+    }
+}
